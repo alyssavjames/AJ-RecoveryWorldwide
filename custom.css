@@ -1,0 +1,53 @@
+html{
+     height: 100%!important;
+     background-image: url(img/signup-bg.jpg);
+     background-repeat: no-repeat;
+     background-size:100% 100%;
+     -moz-background-size: cover;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     -ms-background-size: cover;
+     background-position: center center;
+}
+ body {
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     width:700px;
+     padding: 30px;
+     left: 50%;
+     top: 50%;
+     position: absolute;
+     -webkit-transform: translate3d(-50%, -50%, 0);
+     -moz-transform: translate3d(-50%, -50%, 0);
+     transform: translate3d(-50%, -50%, 0);
+}
+ h1 {
+     font-family: 'Barlow Condensed', sans-serif;
+     margin-bottom: 40px;
+     font-size: 32px;
+     color: #0082A5 
+}
+ label {
+     color: #333;
+}
+ input{
+     text-transform: uppercase;
+}
+ img{
+     padding-top: 20px;
+     padding-bottom: 10px;
+}
+ .btn-send {
+     background-color:#0082A5!important;
+     margin-top: 30px;
+     width:100%;
+     font-weight: 300;
+     text-transform: uppercase;
+     letter-spacing: 0.2em;
+     margin-bottom: 20px;
+     border:none!important;
+}
+ .help-block.with-errors {
+     color: #ff5050;
+     margin-top: 5px;
+}
